@@ -1,5 +1,6 @@
 # emacs
 <pre>
+;; ~/.emacs.d/init.el
 ;; load emacs 24's package system. Add MELPA repository.
 (when (>= emacs-major-version 24)
   (require 'package)
