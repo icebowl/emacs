@@ -9,10 +9,10 @@
    ;; '("melpa" . "http://stable.melpa.org/packages/") ; many packages won't show if using stable
    '("melpa" . "http://melpa.milkbox.net/packages/")
    t))
-   
-   
-   
-   
-   
-   
+  
    </pre>
+<hr />
+<pre>
+http://ergoemacs.org/emacs/emacs_package_system.html
+
+</pre>
