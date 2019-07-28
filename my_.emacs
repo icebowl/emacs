@@ -34,9 +34,16 @@ There are two things you can do about this warning:
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
 ;; cwc
+;; solarized
 (load-theme 'solarized-dark t)
+;; show paren in code
 (show-paren-mode 1)
+;; display line numbers
 (when (version<= "26.0.50" emacs-version )
   (global-display-line-numbers-mode))
+;; cua mode 
+    (cua-mode t)
+    (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
+    (transient-mark-mode 1) ;; No region when it is not highlighted
+    (setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
