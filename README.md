@@ -10,9 +10,22 @@
    '("melpa" . "http://melpa.milkbox.net/packages/")
    t))
   
-   </pre>
+   
 <hr />
-<pre>
+
 http://ergoemacs.org/emacs/emacs_package_system.html
 
+<hr />
+Matching parenthesis
+https://www.gnu.org/software/emacs/manual/html_node/efaq/Matching-parentheses.html
+
+Change color theme
+Changing color themes is accomplished by creating a custom theme and saving it.
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Custom-Themes.html
+Alt-x
+them 
+customize-themes 
+
+
 </pre>
+
