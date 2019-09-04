@@ -1,5 +1,21 @@
-# emacs
 <pre>
+#copy my_.emacs file to ~/
+cp my_.emacs ~/.emacs
+
+start emacs
+alt-x   type "package-refresh-contents"
+
+alt-x  type "package-list-packages"
+
+find the solarized-theme package
+click and install
+
+restart solarized
+
+if solarized light is prefered change ~/.emacs
+
+
+### notes
 ;; ~/.emacs.d/init.el
 ;; load emacs 24's package system. Add MELPA repository.
 (when (>= emacs-major-version 24)
