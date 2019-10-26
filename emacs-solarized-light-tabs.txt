@@ -53,4 +53,10 @@ There are two things you can do about this warning:
 
 ;; set current buffer's tab char's display width to 4 spaces
 (setq tab-width 4)
+;;cwc
+(defun my-insert-tab-char ()
+  "Insert a tab char. (ASCII 9, \t)"
+  (interactive)
+  (insert "\t"))
 
+(global-set-key (kbd "TAB") 'my-insert-tab-char) ; same as Ctrl+i
